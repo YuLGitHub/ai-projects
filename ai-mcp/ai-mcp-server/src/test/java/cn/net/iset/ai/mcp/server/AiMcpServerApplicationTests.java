@@ -1,13 +1,13 @@
-package cn.net.iset.ai.skills;
+package cn.net.iset.ai.mcp.server;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AiSkillsApplicationTests {
+class AiMcpServerApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }

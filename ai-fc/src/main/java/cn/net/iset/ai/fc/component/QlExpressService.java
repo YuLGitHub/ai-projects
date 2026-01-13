@@ -1,4 +1,4 @@
-package cn.net.iset.ai.skills.fc;
+package cn.net.iset.ai.fc.component;
 
 import com.ql.util.express.DefaultContext;
 import com.ql.util.express.ExpressRunner;

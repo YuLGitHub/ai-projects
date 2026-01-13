@@ -1,4 +1,4 @@
-package cn.net.iset.ai.skills.fc;
+package cn.net.iset.ai.fc.component;
 
 import com.openai.models.chat.completions.ChatCompletionTool;
 import java.util.Map;

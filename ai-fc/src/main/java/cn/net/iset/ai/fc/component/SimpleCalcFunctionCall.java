@@ -1,5 +1,6 @@
-package cn.net.iset.ai.skills.fc;
+package cn.net.iset.ai.fc.component;
 
+import cn.net.iset.ai.fc.enums.FunctionCallEnum;
 import com.openai.core.JsonValue;
 import com.openai.models.FunctionDefinition;
 import com.openai.models.FunctionParameters;

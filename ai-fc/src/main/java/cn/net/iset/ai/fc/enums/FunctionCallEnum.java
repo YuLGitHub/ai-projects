@@ -1,4 +1,4 @@
-package cn.net.iset.ai.skills.fc;
+package cn.net.iset.ai.fc.enums;
 
 /**
  * fc枚举

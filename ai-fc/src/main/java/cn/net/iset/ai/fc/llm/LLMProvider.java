@@ -1,8 +1,8 @@
-package cn.net.iset.ai.skills.chat;
+package cn.net.iset.ai.fc.llm;
 
 import cn.hutool.core.lang.TypeReference;
 import cn.hutool.json.JSONUtil;
-import cn.net.iset.ai.skills.fc.FunctionCallManager;
+import cn.net.iset.ai.fc.component.FunctionCallManager;
 import com.openai.client.OpenAIClient;
 import com.openai.client.okhttp.OpenAIOkHttpClient;
 import com.openai.core.JsonValue;
@@ -38,11 +38,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class LLMProvider {
 
-    private static final String apiKey = "";
+    private static final String apiKey = "eBbN3BEmCYl6YGYj9nSgJOPP@4940";
 
-    private static final String reqUrl = "";
+    private static final String reqUrl = "http://v2.open.venus.oa.com/llmproxy/";
 
-    private String model = "";
+    private String model = "deepseek-v3.2";
 
     @Resource
     private FunctionCallManager functionCallManager;

@@ -38,9 +38,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class LLMProvider {
 
-    private static final String apiKey = "eBbN3BEmCYl6YGYj9nSgJOPP@4940";
+    private static final String apiKey = "";
 
-    private static final String reqUrl = "http://v2.open.venus.oa.com/llmproxy/";
+    private static final String reqUrl = "";
 
     private String model = "deepseek-v3.2";
 
